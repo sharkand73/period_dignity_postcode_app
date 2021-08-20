@@ -1,0 +1,162 @@
+{
+  "Aberdeen City" : {
+    "website": false,
+    "tsi": "Aberdeen City",
+    "alt_link": "https://acvo.org.uk/"
+  },
+  "Aberdeenshire" : {
+    "website": false,
+    "tsi": "Aberdeenshire",
+    "alt_link": "https://www.avashire.org.uk/"
+  },
+  "Angus" : {
+    "website": false,
+    "tsi": "Angus",
+    "alt_link": "https://www.voluntaryactionangus.org.uk/"
+  },
+  "Argyll and Bute" : {
+    "website": false,
+    "tsi": "Argyll and Bute",
+    "alt_link": "https://www.argylltsi.org/"
+  },
+  "Clackmannanshire" : {
+    "website": false,
+    "tsi": "Forth Valley",
+    "alt_link": "https://www.cvsfalkirk.org.uk/"
+  },
+  "Dumfries and Galloway" : {
+    "website": false,
+    "tsi": "Dumfries and Galloway",
+    "alt_link": "https://www.tsdg.org.uk/"
+  },
+  "Dundee" : {
+    "website": false,
+    "tsi": "Dundee",
+    "alt_link": "https://dvva.scot/"
+  },
+  "East Ayrshire" : {
+    "website": false,
+    "tsi": "East Ayrshire",
+    "alt_link": "http://cvoea.co.uk/"
+  },
+  "East Dunbartonshire" : {
+    "website": false,
+    "tsi": "East Dunbartonshire",
+    "alt_link": "https://edva.org/"
+  },
+  "East Lothian" : {
+    "website": false,
+    "tsi": "East Lothian",
+    "alt_link": "https://www.volunteereastlothian.org.uk/"
+  },
+  "East Renfrewshire" : {
+    "website": false,
+    "tsi": "East Renfrewshire",
+    "alt_link": "https://www.va-er.org.uk/"
+  },
+  "City of Edinburgh" : {
+    "website": false,
+    "tsi": "City of Edinburgh",
+    "alt_link": "https://www.evoc.org.uk/about-evoc/edinburgh-third-sector-interface/"
+  },
+  "Falkirk" : {
+    "website": false,
+    "tsi": "Forth Valley",
+    "alt_link": "https://www.cvsfalkirk.org.uk/"
+  },
+  "Fife" : {
+    "website": false,
+    "tsi": "Fife",
+    "alt_link": "https://www.fva.org/"
+  },
+  "Glasgow City" : {
+    "website": false,
+    "tsi": "Glasgow City",
+    "alt_link": "http://www.gcvs.org.uk/policy-networks-overview/third-sector-interface/"
+  },
+  "Highland" : {
+    "website": false,
+    "tsi": "Highland",
+    "alt_link": "https://www.highlandtsi.org.uk/"
+  },
+  "Inverclyde" : {
+    "website": false,
+    "tsi": "Inverclyde",
+    "alt_link": "https://www.cvsinverclyde.org.uk/what-we-do/third-sector-interface"
+  },
+  "Midlothian" : {
+    "website": false,
+    "tsi": "Midlothian",
+    "alt_link": "https://www.thirdsectormidlothian.org.uk/"
+  },
+  "Moray" : {
+    "website": false,
+    "tsi": "Moray",
+    "alt_link": "https://www.tsimoray.org.uk/"
+  },
+  "Na h-Eileanan Siar" : {
+    "website": false,
+    "tsi": "Na h-Eileanan Siar",
+    "alt_link": "https://tsiwi.org/"
+  },
+  "North Ayrshire" : {
+    "website": false,
+    "tsi": "North Ayrshire",
+    "alt_link": "http://northayrshire.community/get-involved/the-third-sector-interface/"
+  },
+  "North Lanarkshire" : {
+    "website": false,
+    "tsi": "North Lanarkshire",
+    "alt_link": "http://www.voluntaryactionnorthlanarkshire.org/"
+  },
+  "Orkney Islands" : {
+    "website": false,
+    "tsi": "Orkney",
+    "alt_link": "https://www.vaorkney.org.uk/"
+  },
+  "Perth and Kinross" :  {
+    "website": true,
+    "tsi": "Perth and Kinross",
+    "webAddress": "https://www.pkavs.org.uk/"
+  },
+  "Renfrewshire" : {
+    "website": false,
+    "tsi": "Renfrewshire",
+    "alt_link": "https://engagerenfrewshire.org/"
+  },
+  "Scottish Borders" : {
+    "website": false,
+    "tsi": "Scottish Borders",
+    "alt_link": "http://onlineborders.org.uk/community/scobortsi"
+  },
+  "Shetland Islands" : {
+    "website": false,
+    "tsi": "Shetland",
+    "alt_link": "https://www.shetland-communities.org.uk/vas/"
+  },
+  "South Ayrshire" : {
+    "website": false,
+    "tsi": "South Ayrshire",
+    "alt_link": "https://vhscotland.org.uk/members/voluntary-action-south-ayrshire-vasa/"
+  },
+  "South Lanarkshire" : {
+    "website": false,
+    "tsi": "South Lanarkshire",
+    "alt_link": "http://www.vaslan.org.uk/aboutvaslan"
+  },
+  "Stirling" : {
+    "website": false,
+    "tsi": "Forth Valley",
+    "alt_link": "https://www.cvsfalkirk.org.uk/"
+  },
+  "West Dunbartonshire" : {
+    "website": false,
+    "tsi": "West Dunbartonshire",
+    "alt_link": "https://www.wdcvs.com/"
+  },
+  "West Lothian" : {
+    "website": false,
+    "tsi": "West Lothian",
+    "alt_link": "https://www.voluntarysectorgateway.org/"
+  }
+}
