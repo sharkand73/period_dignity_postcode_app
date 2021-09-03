@@ -40,6 +40,10 @@ h1 {
   font-size: 20px;
 }
 
+.submit:hover {
+  background-color: rgb(233, 147, 161);
+}
+
 .message {
   margin-top: 50px;
   font-size: 20px;
