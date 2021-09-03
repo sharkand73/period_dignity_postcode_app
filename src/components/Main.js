@@ -34,7 +34,7 @@ const Main = (councilsInfo) => {
     const generateMessage = (council, link) => (
         <>
             <p>
-                {council}{possessive(council)} period dignity service is not yet available online. 
+                {council}{possessive(council)} Dignity Period service is not yet available online. 
             </p>
             <p>
                 For more information contact the T.S.I. via their <a href={link}>home page.</a>      
@@ -45,14 +45,15 @@ const Main = (councilsInfo) => {
     
 
     const handleReply = function(reply) {
+        const council = councilsInfo.councilsInfo[reply.result.admin_district]['tsi'];
         if (reply.status === 404) {setMessage(<p>Not a valid postcode!</p>)}
         if (reply.status === 200) {
             if (reply.result.country === "Scotland"){
                 if (councilsInfo.councilsInfo[reply.result.admin_district].website) {
-                    window.location.href = councilsInfo.councilsInfo[reply.result.admin_district].webAddress;
+                    setMessage(<p>Opening {council}{possessive(council)} Dignity Period page... </p>)
+                    window.open(councilsInfo.councilsInfo[reply.result.admin_district].webAddress);
                 }
                 else {
-                    let council = councilsInfo.councilsInfo[reply.result.admin_district]['tsi'];
                     let link = councilsInfo.councilsInfo[reply.result.admin_district]['alt_link'];
                     setMessage(generateMessage(council, link));
                 }
