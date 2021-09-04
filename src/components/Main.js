@@ -48,13 +48,13 @@ import React, {useState, useEffect} from 'react';
          if (reply.status === 404) {setMessage(<p>Not a valid postcode!</p>)}
          if (reply.status === 200) {
              if (reply.result.country === "Scotland"){
-                 if (councilsInfo.councilsInfo[reply.result.admin_district].website) {
-                     window.location.href = councilsInfo.councilsInfo[reply.result.admin_district].webAddress;
+                 let council = councilsInfo.councilsInfo[reply.result.admin_district];
+                 if (council.website) {
+                     window.location.href = council.webAddress;
                  }
                  else {
-                     let council = councilsInfo.councilsInfo[reply.result.admin_district]['tsi'];
                      let link = councilsInfo.councilsInfo[reply.result.admin_district]['alt_link'];
-                     setMessage(generateMessage(council, link));
+                     setMessage(generateMessage(council['tsi'], link));
                  }
 
              }
