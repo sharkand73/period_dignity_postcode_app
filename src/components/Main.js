@@ -34,7 +34,7 @@ import React, {useState, useEffect} from 'react';
      const generateMessage = (council, link) => (
          <>
              <p>
-                 {council}{possessive(council)} period dignity service is not yet available online. 
+                 {council}{possessive(council)} Dignity Period service is not yet available online. 
              </p>
              <p>
                  For more information contact the T.S.I. via their <a href={link}>home page.</a>      
@@ -65,7 +65,7 @@ import React, {useState, useEffect} from 'react';
      return (
          <>
              <header>
-                 <h1>Period Dignity Scotland</h1>
+                 <h1>Dignity Period Scotland</h1>
              </header>
              <div className='container'>
                  <div>
@@ -91,4 +91,3 @@ import React, {useState, useEffect} from 'react';
  }
 
  export default Main;
- 
