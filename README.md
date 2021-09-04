@@ -16,7 +16,11 @@ https://perioddignitydb-default-rtdb.europe-west1.firebasedatabase.app/.json
 
 ## Running the app
 
-In the project directory, you can run:
+Clone the repo and in the project directory, run: 
+
+### `npm install`
+
+Then you can run:
 
 ### `npm start`
 
