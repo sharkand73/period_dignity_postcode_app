@@ -6,7 +6,7 @@ function App() {
   const [councilsInfo, setCouncilsInfo] = useState(null);
 
   useEffect(() => {
-  fetch("https://perioddignitydb-default-rtdb.europe-west1.firebasedatabase.app/.json")
+  fetch("https://postcodechecker-1bf6b-default-rtdb.europe-west1.firebasedatabase.app/.json")
   .then(result => result.json())
   .then(data => setCouncilsInfo(data))}, [] )
 
